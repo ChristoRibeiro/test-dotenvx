@@ -14,10 +14,10 @@ export default function Home() {
       
       <h1>via t3-oss/env-nextjs</h1>
       <p>
-        PORT: {env.PORT}
+        API_NAME: {env.API_NAME}
       </p>
       <p>
-        NODE_ENV: {env.NODE_ENV}
+        API_KEY: {env.API_KEY}
       </p>
     </div>
   );
